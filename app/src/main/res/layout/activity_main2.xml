@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.codetribe.orderingcoffee.Main2Activity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your order is: "
+        android:textSize="23dp"
+        android:id="@+id/your"
+        android:layout_marginTop="24dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/orderDetails" />
+    <TextView
+        android:id="@+id/orderDetails"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your order +"
+        android:textSize="26dp"
+        android:layout_marginTop="85dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="38dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="get spiner"
+        android:id="@+id/spinner_results"
+        android:textSize="26dp"
+        android:layout_marginEnd="38dp"
+        android:layout_alignBaseline="@+id/orderDetails"
+        android:layout_alignBottom="@+id/orderDetails"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="quantity"
+        android:textSize="26dp"
+        android:layout_alignTop="@+id/your"
+        android:layout_alignStart="@+id/spinner_results" />
+
+
+</RelativeLayout>

@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">OrderingCoffee</string>
+    <string-array name="extra">
+        <item>white sugar</item>
+        <item>brown sugar</item>
+        <item>milk</item>
+    </string-array>
+
+
+    <string-array name="tea_type">
+        <item>Rooibos</item>
+        <item>11 Oclock </item>
+        <item>Five roses</item>
+        <item>Flavoured tea</item>
+
+    </string-array>
+
+    <string-array name="flavours">
+        <item>choclate</item>
+        <item>strawberry</item>
+        <item>vanila</item>
+        <item>bubbleGum</item>
+    </string-array>
+
+</resources>
